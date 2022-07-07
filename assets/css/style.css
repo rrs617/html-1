@@ -1,11 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap');
 
 *{
+    margin: 0;
     font-family: 'Roboto', sans-serif;
 }
 
 .brand-logo {
-object-fit: contain;
+    padding-left: 60px;
+    padding-bottom: 7.5px;
+    padding-top: 10px;
 }
 
 .logo-section {
@@ -14,27 +17,22 @@ object-fit: contain;
 
 
 .header {
-        padding: 10px;
+background-color: white;
 }
 
 .nav-links {
-    
+    display: flex;
+    flex-basis: 70%;
+    display: flex;
     background: red;
-    flex-basis: 50%;
-display: flex;
-justify-content: center;
-font;
-
+    padding-left: 55px;
 }
 
 .nav-links a {
-    
-    
     padding: 15px;
-    justify-content: space-between;
+    padding-left: 20px;
     text-decoration: none;
     display:flex
     text-decoration: none;
     color: white;
-
 }
